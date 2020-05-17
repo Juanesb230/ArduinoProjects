@@ -34,7 +34,7 @@ This code in the xbee_sendData sends a string DATA with Zigbee protocol.
 ## 4. XBEE PID position control
 
 <p align="justify">
-This code has a position controller for a continuous servo. The feedback sensor is a rotative encoder, the senpoint is sending by a computer with ZigBee Protocol and the arduino send to computer the encoder position data. The figure shows the prototype.
+This code in the xbeePIDServo360control folder has a position controller for a continuous servo. The feedback sensor is a rotative encoder, the senpoint is sending by a computer with ZigBee Protocol and the arduino send to computer the encoder position data. The figure shows the prototype.
 </p>
 
 <p align="center">
