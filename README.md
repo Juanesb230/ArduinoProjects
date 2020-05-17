@@ -41,6 +41,22 @@ This code in the xbeePIDServo360control folder has a position controller for a c
   <img src="Images/XbeePID.PNG">
 </p>
 
+## 5. Treadmill Prototype
+
+<p align="justify">
+In the folder you can see two fields, the arduino code and the Proteus field for the simulation. In this project is used:
+ -Arduino MEGA 2560
+ -LCD 16X2
+ -DS1307
+ -DC Motor
+ -Optical Encoder
+This Treadmill Prototype has a different tranining modes, before it starts the user enters his weights and calculates the calories of him. The arduino EPROM saves a history of data and the DS1307 manages time for up to a week. The followinf figure shows some functions.
+</p>
+
+<p align="center">
+  <img src="Images/Treadmill.PNG">
+</p>
+
 ## 5. Contact with me
 
 Linkedin: <www.linkedin.com/in/juan-balseca-pinto-9117b397>
