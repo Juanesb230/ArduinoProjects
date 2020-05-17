@@ -4,7 +4,7 @@
 ## 1. SPWM
 
 <p align="justify">
-This code in the dca folder generates a SPWM with Arduino. The following figure shows the scheme was done.
+This code is in the dca folder, generates a SPWM with Arduino. The following figure shows the scheme.
 </p>
 
 <p align="center">
@@ -22,19 +22,19 @@ And the other figures show the generated signals.
 ## 2. Position PID control at Stepper Motor
 
 <p align="justify">
-This code in the stepperPIDcontrol folder has position control with a PID. The sensor that measures the position is a potenciometer and the output signals is by using the ULN2003 driver.
+This code is in the stepperPIDcontrol folder has position control with a PID. The sensor that measures the position is a potenciometer and the output signals is by using the ULN2003 driver.
 </p>
 
 ## 3. XBEE send a DATA
 
 <p align="justify">
-This code in the xbee_sendData sends a string DATA with Zigbee protocol.
+This code is in the xbee_sendData, sends a string DATA with Zigbee protocol.
 </p>
 
 ## 4. XBEE PID position control
 
 <p align="justify">
-This code in the xbeePIDServo360control folder has a position controller for a continuous servo. The feedback sensor is a rotative encoder, the senpoint is sending by a computer with ZigBee Protocol and the arduino send to computer the encoder position data. The figure shows the prototype.
+This code is in the xbeePIDServo360control folder, has a position controller for a continuous servo. The feedback sensor is a rotative encoder, the senpoint is sending by a computer with ZigBee Protocol and the arduino send to computer the encoder position data. The figure shows the prototype.
 </p>
 
 <p align="center">
@@ -50,7 +50,7 @@ In the folder you can see two fields, the arduino code and the Proteus field for
  -DS1307
  -DC Motor
  -Optical Encoder
-This Treadmill Prototype has a different tranining modes, before it starts the user enters his weights and calculates the calories of him. The arduino EPROM saves a history of data and the DS1307 manages time for up to a week. The followinf figure shows some functions.
+This Treadmill Prototype has differents tranining modes, before it starts the user enters his weight and calculates the calories of user. The EPROM saves a history of data and the DS1307 manages time for up to a week. The followinf figure shows some functions.
 </p>
 
 <p align="center">
@@ -60,7 +60,7 @@ This Treadmill Prototype has a different tranining modes, before it starts the u
 ## 6. Energy calculation and send it by NRF24L01
 
 <p align="justify">
-With an Arduino, voltage and current sensors the code calculates the energy and sends that data with NRF24L01.
+With an Arduino, voltage and current sensors, the code calculates the energy and sends that data with  NRF24L01 antenna.
 This code receives a message of RPI and sends the energy. The RPI code is in the following link:
 </p>
 
