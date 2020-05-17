@@ -57,6 +57,19 @@ This Treadmill Prototype has a different tranining modes, before it starts the u
   <img src="Images/Treadmill.PNG">
 </p>
 
-## 5. Contact with me
+## 6. Energy calculation and send it by NRF24L01
+
+<p align="justify">
+With an Arduino, voltage and current sensors the code calculates the energy and sends that data with NRF24L01.
+This code receives a message of RPI and sends the energy. The RPI code is in the following link:
+  <https://github.com/Juanesb230/RaspberryProjects/tree/master/NRF24L01communication>
+The next figure shows the energy sent with NRF24L01.
+</p>
+
+<p align="center">
+  <img src="Images/NRF.jpg">
+</p>
+
+## 7. Contact with me
 
 Linkedin: <www.linkedin.com/in/juan-balseca-pinto-9117b397>
